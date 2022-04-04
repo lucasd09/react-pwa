@@ -1,14 +1,14 @@
 import React from 'react';
 
-import GlobalStyles from './Styles/GlobalStyles';
 import Layout from './components/Layout';
+import GlobalStyles from './styles/GlobalStyles';
 
 function App() {
   return (
     <>
       <Layout />
 
-      <GlobalStyles/>
+      <GlobalStyles />
     </>
   );
 }

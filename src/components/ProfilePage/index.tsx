@@ -1,17 +1,19 @@
-import React from 'react'
+import React from 'react';
+
+import Feed from '../Feed';
 
 import {
-    Container,
-    Banner,
-    Avatar,
-    ProfileData,
-    LocationIcon,
-    CakeIcon,
-    Followage,
-    EditButton,
-  } from './styles'
+  Container,
+  Banner,
+  Avatar,
+  ProfileData,
+  LocationIcon,
+  CakeIcon,
+  Followage,
+  EditButton,
+} from './styles';
 
-export default function ProfilePage() {
+const ProfilePage: React.FC = () => {
   return (
     <Container>
       <Banner>
@@ -19,13 +21,13 @@ export default function ProfilePage() {
       </Banner>
 
       <ProfileData>
-        {/* <EditButton outlined>Editar perfil</EditButton> */}
+        <EditButton outlined>Editar perfil</EditButton>
 
-        <h1>Lucas Dalan</h1>
-        <h2>@lucasPWA</h2>
+        <h1>Guilherme Rodz</h1>
+        <h2>@guilherme_rodz</h2>
 
         <p>
-          Desenvolvedor de PWA na <a href="https://twitter.com/univem">@UNIVEM</a>
+          Developer at <a href="https://rocketseat.com.br">@Rocketseat</a>
         </p>
 
         <ul>
@@ -35,7 +37,7 @@ export default function ProfilePage() {
           </li>
           <li>
             <CakeIcon />
-            Nascido(a) em 29 de Maio de 2002
+            Nascido(a) em 21 de junho de 2001
           </li>
         </ul>
 
@@ -49,6 +51,9 @@ export default function ProfilePage() {
         </Followage>
       </ProfileData>
 
+      <Feed />
     </Container>
-  )
-}
+  );
+};
+
+export default ProfilePage;
