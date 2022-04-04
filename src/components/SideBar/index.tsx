@@ -26,15 +26,9 @@ const SideBar: React.FC = () => {
           <List
             title="Talvez você curta"
             elements={[
-              <FollowSuggestion
-                name="Luiz Batanero"
-                nickname="@luizbatanero"
-              />,
-              <FollowSuggestion name="Luke Morales" nickname="@lukemorales" />,
-              <FollowSuggestion
-                name="Camila Magalhães"
-                nickname="@camilaamgl"
-              />,
+              <FollowSuggestion name="Luis Hilário" nickname="@luishilario" />,
+              <FollowSuggestion name="Ildeberto Bugatti" nickname="@Bugatti" />,
+              <FollowSuggestion name="Ricardo José Sabatine" nickname="@Sabatine" />,
             ]}
           />
           <List
@@ -44,11 +38,7 @@ const SideBar: React.FC = () => {
               <News />,
               <News />,
               <News />,
-              <News />,
-              <News />,
-              <News />,
-              <News />,
-              <News />,
+              <News />
             ]}
           />
         </Body>

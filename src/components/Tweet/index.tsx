@@ -31,29 +31,29 @@ const Tweet: React.FC = () => {
 
         <Content>
           <Header>
-            <strong>Rocketseat</strong>
-            <span>@rocketseat</span>
+            <strong>Univem - Marília</strong>
+            <span>@Univem</span>
             <Dot />
             <time>27 de jun</time>
           </Header>
 
           {/* eslint-disable-next-line jsx-a11y/accessible-emoji */}
-          <Description>Foguete não tem ré 🚀</Description>
+          <Description>PWA Funcionando 🚀</Description>
 
           <ImageContent />
 
           <Icons>
             <Status>
               <CommentIcon />
-              18
+              24
             </Status>
             <Status>
               <RetweetIcon />
-              18
+              69
             </Status>
             <Status>
               <LikeIcon />
-              999
+              420
             </Status>
           </Icons>
         </Content>
